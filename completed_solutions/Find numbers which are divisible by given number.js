@@ -4,11 +4,11 @@ by the given divisor. First argument is an array of numbers and the second is th
 
 
 function divisibleBy(numbers, divisor) {
-  var newArr = [];
+  let newArray = [];
   for (let i = 0; i < numbers.length; i++) {
     if (numbers[i] % divisor === 0) {
-      newArr.push(numbers[i]);
+      newArray.push(numbers[i]);
     } 
   }
-return newArr;
+return newArray;
 }
